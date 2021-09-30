@@ -1,0 +1,2 @@
+Designed in Inkscape with the svg2shenzhen plug in (https://github.com/badgeek/svg2shenzhen)
+Fab layer is to help line up components when in KiCAD.
