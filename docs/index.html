@@ -44,11 +44,12 @@
             <img class="pure-img-responsive" src="https://raw.githubusercontent.com/Isioviel/isioviel.github.io/master/images/soldering/cleaning-iron.jpg" alt="clean soldering tip">
             <p><strong>When you have finished soldering, repeat steps 2 and 3 before turning off your iron.</strong></p>
             <p>This will keep the iron clean, making it easier to use in the future.</p>
+            <p>If your soldering iron is old, or you have used it a lot, it might not clean effectively anymore. In this case, it might be time to buy a <em>new tip</em> for your iron.<p>
           </div>
 
           <div id="joint-tips">
             <h2 class="content-subhead bg-blue">Tips for making a good joint</h2>
-            <p>Here a couple of guides to making a great solder joint:</p>
+            <p>Here are a couple of guides to making a great solder joint:</p>
             <ul>
               <li><a href="https://www.kitronik.co.uk/blog/how-to-solder-in-ten-easy-steps/" target="_blank">
               Kitronik's 'How to Solder'</a>, including clear close-up pictures.</li>
@@ -60,40 +61,111 @@
           <div id="step-by-step">
 
             <h2 class="content-subhead bg-orange">Soldering your snowflake - step-by-step guide</h2>
-            <p>...</p>
-            <p>PICTURE OF ALL COMPONENTS, LABELLED</p>
+            <p>Collect your components:</p>
+            <ul>
+                <li>A: 1x snowflake circuit board</li>
+                <li>B: 4x LEDs, your choice of colour</li>
+                <li>C: 1x battery holder</li>
+                <li>D: 4x resistors, your choice of values (see next step)</li>
+                <li>E: 1x slide switch</li>
+            </ul>
+            <img class="pure-img-responsive" src=".\images\components.JPG" alt="photograph of the components, labelled occording to the list below">
+            <br>
+            <p>You will also need a <strong>CR2032 coin cell battery</strong>. If you are in Science Oxford's workshop, this will be given to you when you are ready to test your circuit board.</p>
+            <p>Collect your tools:</p>
+            <ul>
+                <li>Soldering iron</li>
+                <li>Wet sponge</li>
+                <li>Solder</li>
+                <li>Heat-proof surface</li>
+                <li>Blue tack</li>
+                <li>Wire snippers</li>
+            </ul>
 
             <h3>Step 1: resistors</h3>
             <ul>
-              <li>Test out resistor values <a href="https://www.tinkercad.com/things/7NjMSA8Fr2s" target="_blank">on Tinkercad</a>.</li>
-              <li>...</li>
+              <li>Test out resistor values <a href="https://www.tinkercad.com/things/7NjMSA8Fr2s" target="_blank">on Tinkercad</a>, and choose the most appropriate ones for your LEDs.</li>
+              <li>Push your resistors into the holes labelled R1, R2, R3, R4 on your circuit board.</li>
             </ul>
+              <div class="pure-g">
+                  <div class="pure-u-1-2">
+                      <img class="pure-img-responsive" src=".\images\resistors-front.JPG" alt="front of circuit board showing three resistors in place, and one half-way in">
+                  </div>
+                  <div class="pure-u-1-2">
+                      <img class="pure-img-responsive" src=".\images\resistors-back.JPG" alt="back of circuit board showing legs bent out">
+                  </div>
+              </div>
+            <ul>
+              <li>Once they are pushed through, bend the legs outwards slightly so that they don't fall out.</li>
+              <li>Solder all eight connections.</li>
+              <li>Trim down the legs using the wire snippers by <strong>holding the wire with one hand</strong>, and snipping with the other - this is to stop the bits of wire from pinging away!</li>
+            </ul>
+            <img class="pure-img-responsive" src=".\images\snipping.JPG" alt="hand holding a resistor wire from the circuit board, other hand holding wire snippers at the base of the wire">
 
             <h3>Step 2: battery holder</h3>
             <ul>
               <li>On the back of the snowflake is a circle, with the label 'melt solder here' on it. Melting a <strong>thin</strong> layer of solder onto this circle will help to create a good connection for your battery. <strong>If you are in Science Oxford's workshop, this has already been done for you.</strong></li>
-              <li>Line your battery holder up with the holes on the PCB, and push it in until it is secure.</li>
-              <li>PICTURE AT SIDE ANGLE TO SHOW HOLDER FLUSH WITH BOARD</li>
+              <li>Line your battery holder up with the holes on the PCB, and push it all the way in until it is secure and flush with the board.</li>
+            </ul>
+            <img class="pure-img-responsive" src=".\images\battery-holder.JPG" alt="battery holder in circuit board, pushed all the way in so it is flush with the board">
+            <ul>
               <li>Turn the board over and solder the two battery holder connections.</li>
             </ul>
 
             <h3>Step 3: switch</h3>
             <ul>
               <li>You can attach the switch either on the front or back of the board - your choice. Push it in your chosen direction, and use some blue tack to hold it in place.</li>
-              <li>PICTURE AT SIDE ANGLE TO SHOW SWITCH WITH BLUE TACK, LEGS FREE AND READY TO SOLDER</li>
+            </ul>
+            <img class="pure-img-responsive" src=".\images\switch.JPG" alt="battery holder in circuit board, pushed all the way in so it is flush with the board">
+            <ul>
               <li>Solder all three legs of the switch then, once it has cooled down, remove the blue tack.</li>
+              <li><strong>Don't trim down the legs of the switch</strong>, as they are too short to hold in place and cut safely. Once you have finished the whole circuit board, you can cover up the sharp edges.</li>
             </ul>
 
             <h3>Step 4: LEDs</h3>
             <ul>
-              <li>...</li>
+              <li>Unlike the other components we have used so far, <strong>LEDs will only work if they are soldered into the board the correct way round</strong>.</li>
+              <li>For <strong>every LED</strong>:</li>
+              <ol>
+                  <li>Match it with its resistor (if you have different values) to decide which of the four spaces it should go in.</li>
+                  <li>Identify the <strong>negative leg of your LED - this is the short leg</strong>, and line this up with the <strong>square hole</strong> on the circuit board.</li>
+                  <li>Push your LED all the way in, then double-check that the short leg is in the square hole, and the long leg in the round hole.</li>
+                  <li>Bend the legs outwards slightly to stop it from falling out.</li>
+              </ol>
+            </ul>
+            <img class="pure-img-responsive" src=".\images\LEDs.JPG" alt="four LEDs in the circuit board, view from above, board balancing on the LED legs">
+            <ul>
+              <li>Solder all eight connections.</li>
+              <li><strong>Don't trim down the legs yet</strong> - you are going to test it first!</li>
             </ul>
 
             <h3>Step 5: testing</h3>
             <ul>
-              <li>...</li>
+              <li>Check all of your solder joints to make sure they look good. <strong>If you are in Science Oxford's workshop, ask a workshop leader to check it.</strong> </li>
+              <li>Push a CR2032 coin cell battery into the battery holder - you need to push quite hard to get it all the way in.</li>
+              <li>Test your board - do all of the LEDs come on? Do they turn on and off when you slide the switch?</li>
+              <li>If your circuit doesn't work as expected, make sure that none of the LED legs are touching each other, and check your solder joints again.</li>
+              <li>If your circuit works, then you can trim the legs of the LEDs.</li>
             </ul>
 
+            <h3>Step 6: finishing touches</h3>
+            <p>Now that your snowflake lights up, you can add some more personal touches! Some suggestions:</p>
+            <ul>
+              <li>Choose a ribbon or string to hang it with.</li>
+              <li>Cover any sharp wires with a hot glue gun or some foam tape.</li>
+              <li>Decorate the white surface with marker pens.</li>
+            </ul>
+
+          </div>
+
+          <div id="next-steps">
+            <h2 class="content-subhead bg-yellow">Next steps</h2>
+            <p>Cheap soldering kits are easy to get hold of from e.g. eBay or AliExpress, which you can use for practice.</p>
+            <img class="pure-img-responsive" src="https://isioviel.github.io/images/soldering/board-complete.gif" alt="example circuit board kit - LEDs flashing in a circle">
+            <p>You can also get lovely higher quality kits to make
+              badges to wear, or something functional such as a battery tester.</p>
+            <p><a href="https://boldport.com/" target="_blank">Boldport</a> kits are both beautiful and (sometimes) functional,
+              and come with great documentation!</p>
           </div>
 
         </div>
